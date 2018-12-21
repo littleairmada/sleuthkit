@@ -1423,6 +1423,7 @@ sub set_platform {
         || ($FSTYPE eq "-f ext2")
         || ($FSTYPE eq "-f ext3")
         || ($FSTYPE eq "-f ext4"))
+        || ($FSTYPE eq "-f xfs"))
     {
         $PLATFORM = "linux";
     }

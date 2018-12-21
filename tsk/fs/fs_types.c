@@ -55,6 +55,7 @@ static FS_TYPES fs_type_table[] = {
     {"ext4", TSK_FS_TYPE_EXT4, "Ext4"},
     {"ufs1", TSK_FS_TYPE_FFS1, "UFS1"},
     {"ufs2", TSK_FS_TYPE_FFS2, "UFS2"},
+    {"xfs", TSK_FS_TYPE_XFS, "XFS"},
     {"yaffs2", TSK_FS_TYPE_YAFFS2, "YAFFS2"},
     {0,0,""}
 };
